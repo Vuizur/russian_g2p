@@ -62,7 +62,7 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     install_requires=[
         'lxml',
-        'DAWG @ git+https://github.com/pytries/DAWG@actions',
+        'DAWG @ git+https://github.com/iliadmitriev/DAWG@fix_py_3_10',
         'rnnmorph @ git+https://github.com/IlyaGusev/rnnmorph.git'
     ],
 
